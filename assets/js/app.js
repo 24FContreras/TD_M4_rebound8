@@ -26,9 +26,9 @@ const mostrarDatosComuna = (comuna) => {
   <p class="fs-4">
     <span class="fw-semibold">Región:</span> ${comuna.region}
   </p>
-  <p class="fs-4">La concentración de la contaminación en el aire es ${status}</p>
+  <p class="fs-4">La concentración de la contaminación en el aire es ${value} ${unit}</p>
   <p class="fs-4">
-    La calidad del aire es: ${value} ${unit}
+    La calidad del aire es: ${status}
   </p>`;
 };
 
